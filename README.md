@@ -23,7 +23,7 @@ allprojects {
 
 ```xml
 dependencies {
-    compile 'compile 'com.github.paveltech:CustomTextLibrary:1.0.0''
+    compile 'com.github.paveltech:CustomTextLibrary:1.0.0'
 }
 ```
 
