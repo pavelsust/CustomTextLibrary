@@ -17,7 +17,7 @@
         android:id="@+id/robotoBoldTextView" />
 
     <com.text.fornt.RobotoRegularTextView
-        android:text="TextView"
+        android:text="Hello World!"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/robotoBoldTextView"
@@ -26,13 +26,45 @@
         android:id="@+id/textView" />
 
     <com.text.fornt.RobotoLightTextView
-        android:text="TextView"
+        android:text="Hello World!"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView"
         android:layout_alignRight="@+id/textView"
         android:layout_alignEnd="@+id/textView"
         android:id="@+id/textView2" />
+
+
+    <com.text.fornt.RalewayBold
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/customFontTextView2"
+        android:text="Hello World!" />
+
+
+    <com.text.fornt.RalewayMedium
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/customFontTextView"
+        android:text="Hello World!"
+        android:id="@+id/customFontTextView2" />
+
+
+    <com.text.fornt.RalewayRegular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:text="Hello World!"
+        android:id="@+id/customFontTextView" />
+
+
+
 
 
 </RelativeLayout>

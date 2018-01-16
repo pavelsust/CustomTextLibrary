@@ -10,8 +10,22 @@ public class FontCache {
     public static final String ROBOTO_REGULAR = "fonts/Roboto-Regular.ttf";
     public static final String ROBOTO_LIGHT = "fonts/Roboto-Light.ttf";
     public static final String ROBOTO_BOLD = "fonts/Roboto-Bold.ttf";
+    public static final String RALEWAY_BOLD = "fonts/Raleway-Bold.ttf";
+    public static final String RALEWAY_MEDIUM = "fonts/Raleway-Medium.ttf";
+    public static final String RALEWAY_REGULAR = "fonts/Raleway-Regular.ttf";
 
     private static Hashtable<String, Typeface> fontCache = new Hashtable<String, Typeface>();
+    public String custmFont;
+
+    public String getCustmFont() {
+        return custmFont;
+    }
+
+    public void setCustmFont(String custmFont) {
+        this.custmFont = custmFont;
+    }
+
+
 
     public static Typeface getTypeface(String name, Context context) {
         Typeface tf = fontCache.get(name);

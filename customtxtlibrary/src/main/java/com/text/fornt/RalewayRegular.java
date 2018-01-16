@@ -5,26 +5,30 @@ import android.graphics.Typeface;
 import android.util.AttributeSet;
 import android.widget.TextView;
 
-public class RobotoBoldTextView extends TextView {
+/**
+ * Created by android on 1/17/2018.
+ */
 
-    public RobotoBoldTextView(Context context) {
+public class RalewayRegular extends TextView {
+
+    public RalewayRegular(Context context) {
         super(context);
         applyCustomFont(context);
     }
 
-    public RobotoBoldTextView(Context context, AttributeSet attrs) {
+    public RalewayRegular(Context context, AttributeSet attrs) {
         super(context, attrs);
 
         applyCustomFont(context);
     }
 
-    public RobotoBoldTextView(Context context, AttributeSet attrs, int defStyle) {
+    public RalewayRegular(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         applyCustomFont(context);
     }
 
     private void applyCustomFont(Context context) {
-        Typeface customFont = FontCache.getTypeface(FontCache.ROBOTO_BOLD, context);
+        Typeface customFont = FontCache.getTypeface(FontCache.RALEWAY_REGULAR, context);
         setTypeface(customFont);
     }
 }

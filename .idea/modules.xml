@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CustomTextLibrary.iml" filepath="$PROJECT_DIR$/CustomTextLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/CustomTextLibrary.iml" filepath="$PROJECT_DIR$/.idea/CustomTextLibrary.iml" />
+      <module fileurl="file://D:\Studio\CustomTextLibrary\CustomTextLibrary.iml" filepath="D:\Studio\CustomTextLibrary\CustomTextLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\Studio\CustomTextLibrary\app\app.iml" filepath="D:\Studio\CustomTextLibrary\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/customtxtlibrary/customtxtlibrary.iml" filepath="$PROJECT_DIR$/customtxtlibrary/customtxtlibrary.iml" />
+      <module fileurl="file://D:\Studio\CustomTextLibrary\customtxtlibrary\customtxtlibrary.iml" filepath="D:\Studio\CustomTextLibrary\customtxtlibrary\customtxtlibrary.iml" />
     </modules>
   </component>
 </project>
